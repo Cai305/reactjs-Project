@@ -70,7 +70,7 @@ export default function Navbar() {
               <MDBNavbarLink active aria-current='page' href='#'>
                 CONTACT
               </MDBNavbarLink>
-            </MDBNavbarItem>
+          </MDBNavbarItem>
 
 </Link>
   
