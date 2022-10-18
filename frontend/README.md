@@ -30,6 +30,7 @@
          <li>Detailed docs & multiple practical examples</li>
          <li>React 17</li>
          <li>Huge and active community</li>
+          <li>React Routes already installed</li>
          <li><b>MIT license - free for personal & commercial use</b></li>
         </ul>
       </td>

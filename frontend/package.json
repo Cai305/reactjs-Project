@@ -1,7 +1,7 @@
 {
-  "name": "mdb-react-template",
+  "name": "react-template",
   "version": "4.2.0",
-  "description": "template for mdb-react-ui-kit",
+  "description": "template for react with mdb-react-ui-kit",
   "private": true,
   "dependencies": {
     "mdb-react-ui-kit": "^4.2.0",
@@ -21,7 +21,7 @@
     "template",
     "react"
   ],
-  "author": "MDBootstrap",
+  "author": "MDBootstrap and Cai305",
   "license": "MIT",
   "browserslist": {
     "production": [

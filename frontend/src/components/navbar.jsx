@@ -15,7 +15,7 @@ export default function Navbar() {
   const [showNavCentred, setShowNavCentred] = useState(false);
 
   return (
-    <MDBNavbar expand='lg' light bgColor='success'>
+    <MDBNavbar expand='lg' light bgColor='secondary'  className='sticky-top '>
       <MDBContainer fluid>
         <MDBNavbarToggler
           type='button'
