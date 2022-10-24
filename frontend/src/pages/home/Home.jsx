@@ -5,9 +5,9 @@ import { MDBRow, MDBCol } from 'mdb-react-ui-kit';
 
 function Home() {
   return (<>
-  
+  <div className="bg"></div>
     <div className='bg-image'>
-    <div className="bg"></div>
+    
       <div className='mask' style={{ backgroundColor: 'rgba(0, 0, 0, 0.5)' }}>
         <div className="d-flex justify-content-center">
         <Image/>
@@ -15,7 +15,7 @@ function Home() {
         </div>
         <p className='text-white text-center'>Can you see me?</p>
 
-        {/* <div className='d-flex row justify-content-center align-items-center h-100'>
+        <div className='d-flex row justify-content-center align-items-center h-100'>
 
             <MDBRow>
 
@@ -27,7 +27,7 @@ function Home() {
             
             </MDBRow>
           
-        </div> */}
+        </div>
       </div>
     </div>
   </>

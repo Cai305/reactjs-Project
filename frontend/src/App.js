@@ -5,7 +5,8 @@ import About from "./pages/about/about";
 import Contact from "./pages/contact/contact";
 import Resume from "./pages/resume/resume";
 import Projects from "./pages/projects/projects";
-import Navbar from "./components/navbar"
+import Navbar from "./components/navbar";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 
