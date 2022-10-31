@@ -1,3 +1,14 @@
+:root {
+  --primary: #f44336;
+  --white: white;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  transition: all .3s;
+}
+
 html {
   scroll-behavior: smooth;
 }
@@ -11,4 +22,13 @@ body {
 
 .fab-container {
   z-index: 99;
+}
+
+.pink {
+  color: var(--primary)
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
 }
