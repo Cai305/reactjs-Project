@@ -1,6 +1,7 @@
-body, html {
-    height: 100%;
-  }
+#home {
+  height:100vh;
+  overflow:scroll;
+}
   .bg {
     background-image: url("https://images.unsplash.com/photo-1661956602153-23384936a1d3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2340&q=80");
     height: 100vh;

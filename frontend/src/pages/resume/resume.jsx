@@ -1,11 +1,11 @@
 import './resume.css';
 
 function Resume() {
-    return (<>
+    return (<div id="resume">
     
       <div className="">welocme to Resume</div>
       
-    </>
+    </div>
      
     );
   }

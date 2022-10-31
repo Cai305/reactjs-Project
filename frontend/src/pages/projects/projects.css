@@ -4,3 +4,9 @@
 .Tech-Stacks {
     text-align: center;
 }
+
+#project {
+    height:100vh;
+    overflow:scroll;
+    background-color: orange;
+}

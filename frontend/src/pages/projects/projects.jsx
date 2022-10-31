@@ -1,41 +1,46 @@
-import './projects.css';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCheckSquare, faCoffee ,faReact} from '@fortawesome/fontawesome-free-solid'
+import "./projects.css";
+import Container from "react-bootstrap/Container";
+import Row from "react-bootstrap/Row";
+import Col from "react-bootstrap/Col";
+import { FaReact,FaAngular , FaNodeJs ,FaJs } from "react-icons/fa";
+
+
 
 function Projects() {
-    return (<>
-     
-     <Container>
-      <Row>
-        <Col className="justify-content-center">
-          <br />
+  return (
+    <div id="project">
+      <Container>
+        <Row>
+          <Col className="justify-content-center">
+            <br />
             <h1 className="fs-1  Tech-Stacks">Tech Stacks</h1>
-        </Col>
-      </Row>
-      <Row>
-        <Col xs={6} md={4}>
-          <label className="text-rotate-90">frontend Technologies</label>
-        </Col>
-        <Col xs={6} md={4}>
-             <div>
-              <FontAwesomeIcon icon={faReact} />
-             </div>
+          </Col>
+        </Row>
 
-        </Col>
-        <Col xs={6} md={4}>
-          xs=6 md=4
-        </Col>
-      </Row>
-      <Row>
-        <Col>1 of 1</Col>
-      </Row>
-    </Container>
-    </>
-     
-    );
-  }
-  
-  export default Projects;
+        <Row>
+            <Col className="justify-content-center">
+                <br />
+                <h1 className="fs-5  Tech-Stacks">Mobile Developmenent Technologies</h1>
+            </Col>
+      
+        </Row>
+
+        <Row>
+            <Col className="justify-content-center">
+                <br />
+                <h1 className="fs-5  Tech-Stacks">Frontend Technologies</h1>
+            </Col>
+      
+        </Row>
+        <Row>
+            <Col className="justify-content-center">
+                <br />
+                <h1 className="fs-5  Tech-Stacks">Backend Technologies</h1>
+            </Col>
+        </Row>
+      </Container>
+    </div>
+  );
+}
+
+export default Projects;

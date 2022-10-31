@@ -1,0 +1,10 @@
+#contact {
+    /* height:100vh; */
+    overflow:scroll;
+    /* background-image:url("contact.png") ; */
+    background-color: #cccccc; /* Used if the image is unavailable */
+    height: 720px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover;
+}

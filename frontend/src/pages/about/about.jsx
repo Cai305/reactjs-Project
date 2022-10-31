@@ -1,13 +1,11 @@
-import './about.css';
+import "./about.css";
 
 function About() {
-    return (<>
-  
+  return (
+    <div id="about">
       <div className="">welocme to about</div>
-      
-    </>
-     
-    );
-  }
-  
-  export default About;
+    </div>
+  );
+}
+
+export default About;
